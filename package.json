@@ -1,0 +1,30 @@
+{
+  "name": "eyedropper",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.5.3",
+    "@vueuse/core": "^10.7.1",
+    "amfe-flexible": "^2.2.1",
+    "autoprefixer": "^10.4.14",
+    "element-plus": "^2.4.4",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.9",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "naive-ui": "^2.37.1",
+    "postcss-pxtorem": "^6.0.0",
+    "unplugin-auto-import": "^0.17.3",
+    "unplugin-vue-components": "^0.26.0",
+    "vite": "^4.1.0"
+  }
+}
